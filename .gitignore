@@ -1,6 +1,0 @@
-# Specific to the example project build process
-/node_modules
-/public
-
-# Used by the deployment workflow
-.vagrant
