@@ -8,9 +8,6 @@
   roles:
     - {role: configure, tags: configure}
     - {role: users, tags: users}
-    - {role: nginx, tags: nginx}
   handlers:
-    - name: restart nginx
-      service: name=nginx state=restarted
     - name: restart sshd
       service: name=ssh state=restarted

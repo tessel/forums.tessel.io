@@ -30,7 +30,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Automatically add an entry to /etc/hosts for this Vagrant box (requires
   # sudo). This should match the Ansible host_vars/vagrant site_fqdn value.
-  config.hostsupdater.aliases = ['deployment-workflow.loc']
+  config.hostsupdater.aliases = ['forums-tessel-io.loc']
 
   # give vm access to 1/4 total system memory and all cpu
   config.vm.provider 'virtualbox' do |v|

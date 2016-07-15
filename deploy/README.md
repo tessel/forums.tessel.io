@@ -1,6 +1,6 @@
 # Modern Web Deployment Workflow
 
-<div class="by-bocoup">Brought to you by <a href="https://bocoup.com/"><img src="bocoup.png" width="100px"></a></div>
+<div class="by-bocoup">Brought to you by <a href="https://bocoup.com/"><img src="https://static.bocoup.com/assets/img/bocoup.png" width="100px"></a></div>
 
 This collection of Ansible playbooks have been designed to simplify deployment
 of a modern website or web app using Vagrant, Ubuntu, nginx and HTTP/HTTPS. Many
@@ -412,7 +412,7 @@ internally, will work, allowing you to deploy.
 
 To connect to Vagrant in this way, use the `ssh` command along with the
 hostname alias defined in the [Vagrantfile](#configuring-vagrant). Eg, for this
-example project, the command would be `ssh deployment-workflow.loc`.
+example project, the command would be `ssh forums-tessel-io.loc`.
 
 Also, adding a [section like
 this](https://github.com/cowboy/dotfiles/blob/8e4fa2a/link/.ssh/config#L9-L14)
