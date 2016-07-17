@@ -1,0 +1,11 @@
+# Setup discourse
+
+- name: ensure discourse directory is present
+  file:
+    path: "/var/discourse"
+    state: "directory"
+
+- name: clone discourse into directory
+  git:
+    repo: "https://github.com/discourse/discourse_docker.git"
+    dest: "/var/discourse"
