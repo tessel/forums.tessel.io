@@ -66,3 +66,11 @@ users: []
 #     public_keys:
 #       - ssh-rsa xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx bob@bocoup.com
 
+
+# If these variables are uncommented, add swap space to the machine when the
+# configure playbook is run. The swap configuration controlled by this is
+# meant to address installation problems on machines with minimal ram (e.g.
+# npm bails during install because it runs out of memory)
+
+swap_file_path: /swap
+swap_file_size: 2GB
