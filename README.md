@@ -1,4 +1,5 @@
 # Modern Web Deployment Workflow
+[![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/tessel/project/blob/master/CONDUCT.md)
 
 <div class="by-bocoup">Brought to you by <a href="https://bocoup.com/"><img src="https://static.bocoup.com/assets/img/bocoup.png" width="100px"></a></div>
 
